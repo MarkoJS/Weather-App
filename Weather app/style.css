@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-image: url(sky.jpg);
+}
+
+.holder {
+  background-color: #03033a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  height: 450px;
+  margin: 40px auto;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #7e8dcf, #2a0f6b);
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.holder-input {
+  text-align: center;
+}
+
+#location {
+  background: none;
+  border: none;
+  height: 40px;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 18px;
+}
+
+#location::-webkit-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#location:-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#location::-ms-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#location::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+#btn {
+  background-color: #c71f9d;
+  height: 40px;
+  width: 80px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.holder-info {
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+#city {
+  font-size: 20px;
+  padding: 15px;
+}
+
+#temperature {
+  font-size: 35px;
+  color: white;
+}
+
+#weather {
+  padding: 15px 0;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
